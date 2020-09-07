@@ -50,20 +50,25 @@ Muestra de los Metodos estaticos.
 MyToast.showToast(this,"Este es un toast de prueba");
 ```
 ![Test Image 4](https://i.ibb.co/YkPNtpR/3toast.png)
+
 ```java
 MyToast.showToastAlert(this,"Este es un toast de prueba");
 ```
 ![Test Image 4](https://i.ibb.co/K69TWL8/2toast.png)
+
 ```java
 MyToast.showToastInfo(this,"Este es un toast de prueba");
 ```
 ![Test Image 4](https://i.ibb.co/HNtYDVK/4toast.png)
+
 ```java
 MyToast.showToastLock(this,"Este es un toast de prueba");
 ```
 ![Test Image 4](https://i.ibb.co/WG2S6LW/1toast.png)
+
 ## Instanciando la clase y personalizando nuestro objeto MyToast
 La clase tambien nos permite personalizar, se pueden modificar metodos, pueden aportar, aun falta pero creo que es suficiente ya sino usar el por defecto para personalizara fondo.
+
 ```java
 //Creacion de toast personalizado
         MyToast myToast=new MyToast(this);
@@ -72,12 +77,17 @@ La clase tambien nos permite personalizar, se pueden modificar metodos, pueden a
         myToast.setText(IntentUtil.getStringEditText(this,R.id.editText));
         myToast.show();
 ```
+
 ![Test Image 4](https://i.ibb.co/fnMxgTS/6toast.png)
+
 Algunas anotaciones, por defecto el fondo es negro y texto blanco.
-el time, se usa el Toast.Short y el mismo, que en realidad es un entero 1 o 0
+el time, se usa el Toast.Short y el mismo, que en realidad es un entero 1 o 0.
+
 ## Utilidades
+
 Lo pueden llegar a usar para mostrar excepciones, con un exception.getMessage();
 Pueden usarlo para personalizar su app y mostrar una caja de mensaje acorde a su app.
+
 ![Test Image 4](https://i.ibb.co/cwtRPns/5toast.png)
 
 ## Info
