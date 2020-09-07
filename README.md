@@ -43,3 +43,14 @@ public class MainActivity extends AppCompatActivity {
 }
 
 ```
+
+## Metodos Estaticos
+Muestra de los Metodos estaticos.
+```java
+MyToast.showToast(this,"Este es un toast de prueba");
+```
+![Test Image 4](<a href="https://imgbb.com/"><img src="https://i.ibb.co/YkPNtpR/3toast.png" alt="3toast" border="0"></a>)
+```java
+MyToast.showToastAlert(this,IntentUtil.getStringEditText(this,R.id.editText));
+```
+![Test Image 4](https://i.ibb.co/K69TWL8/2toast.png)
